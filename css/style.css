@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+.container {
+  align-items: center;
+  background-color: chartreuse;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+
+.lesson {
+  font-size: 25px;
+  background-color: rgb(211, 68, 68);
+  color: #ffcc00;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-top: 0px;
+  font-weight: bold;
+}
+.less {
+  font-size: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  word-spacing: 8px;
+  text-align: center;
+  font-weight: bold;
+}
