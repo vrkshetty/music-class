@@ -38,3 +38,9 @@
   text-align: center;
   font-weight: bold;
 }
+#footer {
+  background-color: rgb(128, 119, 119);
+  font-size: 25px;
+  color: #ffcc00;
+  text-align: center;
+}
