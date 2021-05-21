@@ -3,34 +3,40 @@
   padding: 0;
   font-family: sans-serif;
 }
-.responsive {
+
+#head {
+  background-color: rgb(211, 68, 68);
+  color: #ffcc00;
+  font-size: 40px;
+  text-align: center;
+}
+
+/* Background Image */
+.bgImag {
   width: 100%;
   height: auto;
   background-size: cover;
   background-position: center;
 }
+
+/* container */
 .container {
   align-items: center;
-  background-color: chartreuse;
+  background-color: white;
 }
 
-.responsive {
-  width: 100%;
-  height: auto;
-  background-size: cover;
-  background-position: center;
-}
-
-.lesson {
-  font-size: 25px;
+/* class - bars */
+.headbar {
+  font-size: 20px;
   background-color: rgb(211, 68, 68);
   color: #ffcc00;
   margin-bottom: 10px;
   text-align: center;
-  margin-top: 0px;
   font-weight: bold;
+  padding: 5px;
 }
-.less {
+
+.lessonText {
   font-size: 20px;
   margin-left: 10px;
   margin-bottom: 10px;
@@ -39,13 +45,22 @@
   font-weight: bold;
 }
 
+h2 {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.lessons {
+  text-align: center;
+}
+
 .footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgb(128, 119, 119);
-  color: rgb(12, 9, 9);
+  background-color: rgb(211, 68, 68);
+  color: #ffcc00;
   text-align: center;
-  padding: 15px;
+  padding: 5px;
 }
